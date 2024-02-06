@@ -2,7 +2,7 @@ return {
   'akinsho/toggleterm.nvim',
   config = function()
     require("toggleterm").setup {
-      size = 20,
+      size = 15,
       open_mapping = [[<c-\>]],
       hide_numbers = true,
       shade_filetypes = {},
@@ -15,8 +15,8 @@ return {
       shell = vim.o.shell,
       float_opts = {
         border = 'single', -- Puedes cambiar a 'double', 'shadow' o 'none'
-        width = 60,
-        height = 15,
+        width = 100,
+        height = 30,
         winblend = 3,
         highlights = { border = "Normal", background = "Normal" } -- Cambia a los grupos de resaltado correctos
       }

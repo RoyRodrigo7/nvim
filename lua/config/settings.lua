@@ -18,3 +18,4 @@ opt.termguicolors = true
 
 -- vim.cmd.colorscheme('slate')
 
+vim.api.nvim_set_keymap('n', '<Leader>x', ':!python3 %<CR>', { noremap = true, silent = true })
