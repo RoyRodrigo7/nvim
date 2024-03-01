@@ -1,8 +1,8 @@
 return {
-    'AlessandroYorba/Sierra',
+    'catppuccin/nvim',
     lazy = false,
     priority = 1000,
     config = function()
-        vim.cmd([[colorscheme sierra]])
+        vim.cmd([[colorscheme catppuccin]])
     end,
 }
